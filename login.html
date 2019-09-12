@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imgs/favicon.png">
+	<title>Página principal</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>	
+	<main role="main">
+		<div class="container">
+			<div class="row">						
+				<img class="mb-4 logoImage" src="imgs/logo.png" alt="Logo">
+			</div>
+			<div class="row">
+				<div class="col alert alert-danger fade" role="alert" id="errorMessage">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<label for="username" class="sr-only">Username</label>
+					<input type="text" id="username" class="form-control" placeholder="Username" required="" autofocus="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<label for="password" class="sr-only">Password</label>
+					<input type="password" id="password" class="form-control" placeholder="Password" required="">
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col">
+					<button id="loginButton" class="btn btn-lg btn-secondary btn-block" type="submit">Sign in</button>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+</body>
+</html>
