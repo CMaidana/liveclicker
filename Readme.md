@@ -4,24 +4,34 @@ css
  |
  - bootstrap.min.css
  - style.css
+ 
+
 js
  |
  - home.js
  - init.js
  - login.js
+ 
+
 imgs
  |
  - favicon.png
  - logo.png
  - profilepicture.jpg
+ 
+
 logs
  |
  - log.log	 
+ 
+
 models
  |
  - User.php
  - Db.php
  - Session.php
+ 
+
 controller
  | 
  - UserController.php
@@ -30,9 +40,12 @@ controller
  	-> image()
  	-> update()
  	-> get()
+
 db
  |
  - user.json
+ 
+
 test
  |
  - UserControllerTest.php	
